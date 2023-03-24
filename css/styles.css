@@ -57,8 +57,7 @@ main p img{
          
     }
     div img {
-        width: 340px;
-        padding: 5px;
+        width: 90%;
 
     }
     p{    
@@ -66,8 +65,7 @@ main p img{
         font-family:monospace;
         font-size: 18px;
         text-align: center;
-        width: 300px;
-        padding: 10px;
+        width: 85%;
 
     }
 }
