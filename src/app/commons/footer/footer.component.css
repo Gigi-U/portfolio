@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    border:1px solid rgba(254, 0, 0, 0)
+  }
+  .section-container {
+    height: fit-content;
+    margin: 30px 0px 30px 0px;
+    padding: 0; 
+    text-align: center;
+  }
+  .section-title{
+    margin-bottom: 30px;
+  }
+  .section-title h2{  
+    font-size: 30px;
+    color: rgb(180, 180, 240);
+    text-align: center;
+  }

@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  border:1px solid rgba(254, 0, 0, 0)
+}
+.section-container {
+  height: fit-content;
+  margin: 30px 0px 30px 0px;
+  padding: 0; 
+  text-align: center;
+}
+.section-title{
+  margin-bottom: 30px;
+}
+.section-title h2{  
+  font-size: 30px;
+  color: rgb(180, 180, 240);
+  text-align: center;
+}
+
+/* projects.component.css */
+.horizontal-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px; /* Agrega un pequeño relleno para evitar que las tarjetas lleguen al borde del contenedor */
+  list-style: none;
+}
+
+.project-item {
+  position: relative;
+  background-color: rgba(57, 47, 65, 0.221);
+  padding: 20px 10px;
+  border-radius: 20px;
+  height: fit-content;
+  width: 330px;
+  margin-right: 10px; /* Ajusta según tus necesidades */
+  margin-bottom: 35px;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: rgba(179, 110, 194, 0.25) 0px 25px 50px -12px;
+}
+
+.project-description {
+  padding: 10px;
+  height: 170px;
+}
+
+h2 {
+  display: inline;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  display: inline;
+  width: 200px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.project-tag {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  top: 0;
+  right: -20px;
+  z-index: 1; /* Asegura que la etiqueta esté encima de la imagen */
+}
+
+.project-tag h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 2px 0px 2px 80px;
+}
+
+img {
+  width: 90%;
+  border-radius: 3%;
+  position: relative;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+}
+
+.project-links a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  color: #6ef5ff;
+  position: relative;
+  animation: neon 1.5s ease-in-out infinite alternate; /* Definir la animación */
+}
+
+.project-links a:before {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #6ef5ff;
+}
+
+@keyframes neon {
+  from {
+    color: #6ef5ff; /* Color inicial del texto */
+  }
+  to {
+    color: #6ef5ff27; /* Color al que se cambiará el texto */
+  }
+}
+
+.project-links a + a {
+  margin-left: 30px;
+}
+
+.project-links a {
+  text-decoration: none !important;
+}
+
+/* Cambiar color de la barra de desplazamiento en WebKit */
+.horizontal-scroll-container::-webkit-scrollbar {
+  width: 12px; /* Ancho de la barra de desplazamiento */
+
+}
+
+.horizontal-scroll-container::-webkit-scrollbar-thumb {
+  background-color:rgba(57, 47, 65, 0.627); /* Color de la barra de desplazamiento */
+  border-radius: 6px; /* Bordes redondeados */
+}
+
+/* Cambiar color de la barra de desplazamiento en Mozilla Firefox */
+.horizontal-scroll-container::-moz-scrollbar {
+  width: 12px; /* Ancho de la barra de desplazamiento */
+}
+
+.horizontal-scroll-container::-moz-scrollbar-thumb {
+  background-color: #3498db; /* Color de la barra de desplazamiento */
+  border-radius: 6px; /* Bordes redondeados */
+}

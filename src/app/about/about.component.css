@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  border:1px solid rgba(254, 0, 0, 0);
+  background-color: rgba(0, 222, 222, 0);
+}
+
+.section-container {
+    height: fit-content;
+    border-radius: 30px;
+    padding: 0; 
+    padding-right:50px;
+    justify-content: center;
+    background-color: rgba(57, 47, 65, 0.221);
+    margin: 20px 10px 20px 10px;
+    box-shadow: rgba(179, 110, 194, 0.25) 0px 25px 50px -12px;
+
+
+  }
+  .section-title{
+    margin: 20px 30px 20px 40px;
+  }
+  .section-title h2{  
+    font-size: 30px;
+    color: rgb(180, 180, 240);
+    text-align: center;
+    margin: 20px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+  width: 70%;
+  text-align:justify;  
+}
