@@ -19,7 +19,6 @@ import { HeaderComponent } from './commons/header/header.component';
 })
 
 export class AppComponent {
-
 }
 
 //& para crear componentes vamos a la terminal y ponemos: ng generate component nombre-de-componente
