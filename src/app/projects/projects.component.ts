@@ -90,7 +90,7 @@ export class ProjectsComponent {
       name:'Parque App',
       details:'application to practice fullstack skills on Python',
       status: 'In Progress',
-      link1:"https://github.com/Gigi-U/golang-dental-clinic-crud",
+      link1:"https://github.com/Gigi-U/proyectoIntegrador",
       linktext1:'GitHub',
       link2:"https://parque.netlify.app/",
       linktext2:'Website',
