@@ -6,8 +6,10 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
   <div class="header-container">
-    <h1> HEY I AM {{name.toUpperCase()}} <br> &ensp; BUT YOU CAN CALL ME {{nickname.toUpperCase()}}</h1>  
-    <img src="./assets/img/GiDevLuzAzul.png" alt="photo" class="gi-image"> 
+    <div class="section-title">
+      <h1> HEY I AM <span>{{name.toUpperCase()}}</span></h1>
+      <h2>BUT YOU CAN CALL ME {{nickname.toUpperCase()}}</h2>  
+    </div> 
   </div> 
  `, 
   styleUrl: './header.component.css'

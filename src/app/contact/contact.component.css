@@ -1,5 +1,4 @@
 * {
-    margin: 0;
     border: 1px solid rgba(254, 0, 0, 0);
     background-color: #00dede00;
 }
@@ -64,7 +63,7 @@ textarea {
     box-sizing: border-box;
     margin-top: 5px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #00000080;
     border-radius: 4px;
 }
 

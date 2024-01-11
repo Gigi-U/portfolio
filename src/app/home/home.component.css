@@ -38,3 +38,24 @@ button{
     color: white;
     border-radius: 18px;
 }
+@media only screen and (max-width: 767px) {
+    .popup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 80%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .popup-container {
+        background: #ffea01a1;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+}
