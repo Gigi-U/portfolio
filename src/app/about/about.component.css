@@ -6,7 +6,6 @@
     border-radius: 20px;
     padding: 0; 
     justify-content: center;
-    background-color: rgba(57, 47, 65, 0.221);
     margin: 20px 10px 20px 10px;
     box-shadow: rgba(179, 110, 194, 0.25) 0px 25px 50px -12px;
 }
@@ -53,6 +52,7 @@ p{
   .section-about {
     flex-direction: column-reverse; /* Change the flex direction to column-reverse to place the image above */
     align-items: center; /* Centra los elementos en el eje transversal */
+    margin-bottom: 0px;
   }
   
   .gi-image{
@@ -61,5 +61,6 @@ p{
   .info{
     margin: 0px 0px 40px 10px;
   }
-  
+
+
 }
