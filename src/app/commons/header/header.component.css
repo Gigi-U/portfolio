@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 *{
     margin: 0;
     border:1px solid rgba(255, 15, 15, 0)
@@ -10,20 +12,23 @@
 }
 
 .section-title h1 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 35px;
-    color: #5757ff89;
+    font-weight: lighter;
+    /*color: #5757ff89;*/
     margin: 0px 0px 0px 20px;
 }
 .section-title h1 span{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: normal;
+
     font-size: 40px;
-    color: #afafffd5;
+    /*color: #ffffffd5;*/
 }
 .section-title h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 35px;
-    color: #d9b7fda3;
+    color: #9292fba3;
     text-indent: 150px;    
 }
 
@@ -33,16 +38,18 @@
  /* Media query para dispositivos con un ancho máximo de 767 píxeles (por ejemplo, teléfonos móviles) */
  @media only screen and (max-width: 767px) {
     .section-title h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
     .section-title h1 span{
-        font-size: 35px;
+        font-size: 30px;
     }
     .section-title h2 {
-        font-size: 30px;
-        text-indent: 150px;    
+        font-size: 27px;
+        text-indent: 0px;  
     }
-    
+    .section-title{
+       text-align: center;
+    }
 
     
   }

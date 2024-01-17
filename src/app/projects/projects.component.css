@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 .section-container {
   height: fit-content;
@@ -6,10 +7,11 @@
   text-align: center;
 }
 .section-title{
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .section-title h2{  
-  font-size: 30px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 25px;
   color: rgb(180, 180, 240);
   text-align: center;
 }
@@ -37,20 +39,26 @@
 }
 
 .project-description {
+  box-sizing: border-box; 
+  width: 100%;
   padding: 10px;
   height: 170px;
 }
+.project-description p{
+  word-wrap: break-word;
 
+}
 h2 {
   display: inline;
   font-size: 17px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 p {
   display: inline;
   width: 200px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight:lighter;
   font-size: 14px;
 }
 

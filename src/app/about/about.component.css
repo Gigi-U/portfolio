@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
 .section-container {
     height: fit-content;
     border-radius: 20px;
@@ -8,24 +11,31 @@
     box-shadow: rgba(179, 110, 194, 0.25) 0px 25px 50px -12px;
 }
 .section-about{
-  width: 95%;
+  width: 90%;
   display : flex;
   justify-content: space-evenly;
   align-content: center;
+  margin-right: 30px;
+  margin-bottom: 40px;
 }  
 
 .section-title{
   margin: 30px 30px 30px 30px;
 }
 .section-title h2{  
-  font-size: 30px;
+  font-size: 24px;
   color: rgb(180, 180, 240);
   text-align: center;
   margin: 20px 0px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'JetBrains Mono', monospace;
 }
 p{
-  text-align: center; 
+  font-family: 'Roboto', sans-serif;
+  font-weight:lighter;
+  font-size:17px;
+  text-align: center;
+  line-height: 1.7; 
+
 }
 .gisela-image{
   float:left; 
@@ -35,7 +45,7 @@ p{
   width:350px;
 }
 .info{
-  margin: -150px 0px 50px 30px;
+  margin: -100px 0px 50px 30px;
 }
 
  /* Media query para dispositivos con un ancho máximo de 767 píxeles (por ejemplo, teléfonos móviles) */

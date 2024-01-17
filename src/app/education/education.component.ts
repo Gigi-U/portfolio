@@ -29,10 +29,10 @@ export class EducationComponent {
       name:'CTD - Backend Specialist',
       status: ' in progress',
     },
-    {
+/*     {
       id:3,
-      name:'Tecnico Spperior en Desarrollo de Software',
+      name:'Tecnico Superior en Desarrollo de Software',
       status: 'in progress',
-    }
+    } */
   ]
 }

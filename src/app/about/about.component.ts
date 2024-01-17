@@ -11,5 +11,6 @@ import { ExperienceComponent } from '../experience/experience.component';
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
-
+  name = 'Gisela Urriza'
+  nickname = 'Gii';
 }

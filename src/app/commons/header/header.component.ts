@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
   template: `
   <div class="header-container">
     <div class="section-title">
-      <h1> HEY I AM <span>{{name.toUpperCase()}}</span></h1>
-      <h2>BUT YOU CAN CALL ME {{nickname.toUpperCase()}}</h2>  
+      <h1> Hey I am <span>{{name.toUpperCase()}}</span></h1>
+      <h2>but you can call me {{nickname}}</h2>  
     </div> 
   </div> 
  `, 

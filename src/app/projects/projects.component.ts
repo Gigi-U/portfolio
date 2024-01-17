@@ -59,7 +59,7 @@ export class ProjectsComponent {
     },
     {
       id:2,
-      name:'Golang Dental Clinic',
+      name:'Dental Clinic App',
       details:'CRUD web application for dental clinic. Team of 4',
       status: 'Completed',
       link1:"https://github.com/Gigi-U/golang-dental-clinic-crud",
