@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 * {
-    border: 1px solid rgba(254, 0, 0, 0);
+    border: 1px solid rgb(254, 0, 0);
     background-color: #00dede00;
 }
 
@@ -10,42 +13,57 @@
     flex-direction: column;
     height: fit-content;
     border-radius: 30px;
-    padding: 0;
-    margin: 20px 10px 20px 10px;
+    padding: 20px; /* Añadido padding */
+    margin: 20px 10px;
     box-shadow: rgba(179, 110, 194, 0.438) 0px 25px 50px -12px;
 }
 
 .section-title {
-    margin-bottom:8px;
+    margin-bottom: 8px;
 }
 
 .section-title h2 {
     font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     color: #b68cff;
     text-align: center;
     margin-top: 20px;
-
 }
 
+.contact-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+
+.my-data ul {
+    list-style-type: none; /* Oculta los puntos de la lista */
+    padding: 0;
+}
+    
+.my-data li {
+    margin-bottom: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight:lighter;
+    font-size:17px;
+    line-height: 1.7; 
+}
 .contact-form {
-    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    width: 40%; /* Ajuste para ocupar el resto del ancho */
     color: rgb(222, 222, 236);
     margin: 20px 10px 20px 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgba(173, 113, 193, 0.233);
     padding: 20px;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    padding-top: 40px;
 }
 
-.contact-form h2 {
-    font-size: 17px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(222, 222, 236);
-    text-align: center;
-    margin-bottom: 20px;
-}
+
 
 .form-group {
     margin-bottom: 15px;
@@ -81,14 +99,32 @@ button {
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
- /* Media query para dispositivos con un ancho máximo de 767 píxeles (por ejemplo, teléfonos móviles) */
- @media only screen and (max-width: 767px) {
+
+/* Media query para dispositivos con un ancho máximo de 767 píxeles (por ejemplo, teléfonos móviles) */
+@media only screen and (max-width: 767px) {
+    .section-container {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .my-data{
+        margin: 20px 20px 0px 20px; /* Espacio entre my-data y contact-form */
+    }
     .contact-form {
-        width: 270px;
-       
+        width: 100%; /* O ajusta según sea necesario para dispositivos móviles */
+        margin-right: 0; /* Elimina el margen en dispositivos móviles */
+        width: 90%;
+
     }
-    .contact-form h2{
-        margin-top: 0px;
+    .contact-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
-    
-  }
+    .my-data ul li{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
