@@ -22,8 +22,9 @@
 .section-title h2 {
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(180, 180, 240);
+    color: #b68cff;
     text-align: center;
+    margin-top: 20px;
 
 }
 
@@ -41,7 +42,7 @@
 .contact-form h2 {
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgba(251, 251, 251, 0.565);
+    color: rgb(222, 222, 236);
     text-align: center;
     margin-bottom: 20px;
 }
@@ -85,6 +86,9 @@ button {
     .contact-form {
         width: 270px;
        
+    }
+    .contact-form h2{
+        margin-top: 0px;
     }
     
   }

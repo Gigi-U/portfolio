@@ -23,7 +23,7 @@
 }
 .section-title h2{  
   font-size: 24px;
-  color: rgb(180, 180, 240);
+  color: #b68cff;
   text-align: center;
   margin: 20px 0px;
   font-family: 'JetBrains Mono', monospace;
@@ -52,15 +52,17 @@ p{
   .section-about {
     flex-direction: column-reverse; /* Change the flex direction to column-reverse to place the image above */
     align-items: center; /* Centra los elementos en el eje transversal */
-    margin-bottom: 0px;
+    margin: 0px;
   }
-  
+
   .gi-image{
     width: 250px;
   }
   .info{
     margin: 0px 0px 40px 10px;
   }
-
+  .section-container p{
+    margin-left: 30px;
+  }
 
 }

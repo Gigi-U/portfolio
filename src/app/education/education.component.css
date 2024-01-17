@@ -20,4 +20,15 @@ li{
   font-family: 'JetBrains Mono', monospace;
   font-size: 19px;
   margin-bottom: 20px;
+  color: #b68cff;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-container  {
+    text-align: center;
+  }
+  .section-container p{
+
+    text-align: center;
+  }
 }

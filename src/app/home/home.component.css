@@ -35,6 +35,12 @@ button{
     color: white;
     border-radius: 18px;
 }
+p{  
+    font-size: 24px;
+    color: #b68cff;
+    margin: 20px 0px;
+    font-family: 'JetBrains Mono', monospace;
+  }
 @media only screen and (max-width: 767px) {
     .popup-overlay {
         align-items: center; 
