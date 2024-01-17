@@ -51,7 +51,7 @@ p{
  /* Media query para dispositivos con un ancho máximo de 767 píxeles (por ejemplo, teléfonos móviles) */
  @media only screen and (max-width: 767px) {
   .section-about {
-    flex-direction: column; /* Cambia la dirección del flexbox a columna */
+    flex-direction: column-reverse; /* Change the flex direction to column-reverse to place the image above */
     align-items: center; /* Centra los elementos en el eje transversal */
   }
   
