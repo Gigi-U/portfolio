@@ -59,10 +59,31 @@ p{
     width: 250px;
   }
   .info{
-    margin: 0px 0px 40px 10px;
+    margin: 0px 0px 40px 0px;
   }
   .section-container p{
-    margin-left: 30px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
+  .section-about{
+    width: 100%;
+    display : flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }  
+
+  .section-title h2{  
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+  }
+
+  .gisela-image{
+    float:none; 
+  }
+
 
 }
