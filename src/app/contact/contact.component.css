@@ -49,6 +49,11 @@
     font-weight:lighter;
     font-size:17px;
     line-height: 1.7; 
+    width: 500px;
+}
+.phrase{
+    text-align: center;
+    font-size: 17px;
 }
 .contact-form {
     font-family: 'Roboto', sans-serif;
@@ -126,5 +131,11 @@ button {
         display: flex;
         align-items: center;
         flex-direction: column;
+        width: auto;
+    }
+    .phrase{
+        text-align: center;
+        font-size: 15px;
+
     }
 }
