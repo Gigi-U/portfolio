@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
   <div class="section-container">
     <p>EDUCATION</p>
       <ul>
-        @for (title of titles; track title.id) {
-            <li>{{title.name}}</li>
-        }
+<!--         @for (title of titles; track title.id) {
+            <li>{{title.name}} ( {{title.status}} )</li>
+        } -->
       </ul>
   </div>
   `
@@ -19,20 +19,10 @@ import { Component } from '@angular/core';
 })
 export class EducationComponent {
   titles = [
-    {
-      id:1,
-      name:'CTD - professional Developer',
-      status: 'completed',
-    },
-    {
-      id:2,
-      name:'CTD - Backend Specialist',
-      status: ' in progress',
-    },
 /*     {
-      id:3,
+      id:1,
       name:'Tecnico Superior en Desarrollo de Software',
       status: 'in progress',
-    } */
+    }  */
   ]
 }
