@@ -35,7 +35,7 @@
     color: #b68cff;
     text-align: center;
     margin: 20px 0px 0px 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 @media only screen and (max-width: 767px) {
