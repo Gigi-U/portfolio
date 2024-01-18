@@ -31,9 +31,17 @@
     margin-bottom: 10px;
 }
   .section-title h2{  
-    font-size: 25px;
+    font-size: 24px;
     color: #b68cff;
     text-align: center;
     margin: 20px 0px 0px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+    .skills-icons img{
+        width:50px;
+
+    }
+
 }
