@@ -111,7 +111,7 @@ export class ProjectsComponent {
       tags: ["#ui", "#figma", "#design"],
       type: 'Ux/Ui', 
       labelColor: 'deeppink', 
-      img: '../../assets/gifs/pixel-jeff-clipa-s.gif',
+      img: '../../assets/gifs/starFriend.gif',
     },
     {
       id:6,
