@@ -19,11 +19,10 @@
 }
 .section-container {
     height: fit-content;
-    border-radius: 30px;
+    border-radius: 5px;
     padding: 0; 
     justify-content: center;
     margin: 20px 10px 20px 10px;
-    box-shadow: rgba(179, 110, 194, 0.25) 0px 25px 50px -12px;
 
 
   }
@@ -32,7 +31,7 @@
 }
   .section-title h2{  
     font-size: 24px;
-    color: #b68cff;
+    color: #000000;
     text-align: center;
     margin: 20px 0px 0px 0px;
     font-family: 'JetBrains Mono', monospace;

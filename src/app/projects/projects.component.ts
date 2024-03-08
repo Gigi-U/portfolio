@@ -54,7 +54,7 @@ export class ProjectsComponent {
       linktext2:'',
       tags: ["#backend","#microservices","#springboot","#java","#keycloak","#mysql"],
       type: 'Back-End', 
-      labelColor: 'royalblue', 
+      labelColor: '#638df8', 
       img: '../../assets/gifs/pixel-jeff-clipa-s.gif',
     },
     {
@@ -68,7 +68,7 @@ export class ProjectsComponent {
       linktext2:'',
       tags: ["#backend", "#monolitic", "#go", "#gingonic", "#mysql"],
       type: 'Back-End', 
-      labelColor: 'royalblue', 
+      labelColor: '#638df8', 
       img: '../../assets/gifs/pixel-jeff-clipa-s.gif',
     },
     {
@@ -82,7 +82,7 @@ export class ProjectsComponent {
       linktext2:'',
       tags: ["#backend","#monolitic","#springboot","#java","#thymeleaf","#h2"],
       type: 'Back-End', 
-      labelColor: 'royalblue', 
+      labelColor: '#638df8', 
       img: '../../assets/gifs/pixel-jeff-clipa-s.gif',
     },
     {

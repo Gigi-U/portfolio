@@ -2,7 +2,11 @@ p{
     font-family: 'JetBrains Mono', monospace;
     font-size: 19px;
     margin-bottom: 20px;
-    color: #b68cff;
+    color: #000000;
+}
+.div{
+  border-radius: 10px;
+  color: #000000;
 }
 
 

@@ -12,7 +12,7 @@
 .section-title h2{  
   font-family: 'JetBrains Mono', monospace;
   font-size: 24px;
-  color: #b68cff;
+  color: #000000;
   text-align: center;
 }
 
@@ -27,14 +27,15 @@
 .project-item {
   position: relative;
   padding: 20px 10px;
-  border-radius: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(89, 70, 104);;
+
   height: fit-content;
   width: 330px;
   margin-right: 10px; /* Ajusta según tus necesidades */
   margin-bottom: 35px;
   text-align: center;
   overflow: hidden;
-  box-shadow: rgba(179, 110, 194, 0.25) 0px 25px 50px -12px;
 }
 
 .project-description {
@@ -89,7 +90,7 @@ img {
 .project-links a {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bolder;
-  color: #6ef5ff;
+  color: #57439a;
   position: relative;
   animation: neon 1.5s ease-in-out infinite alternate; /* Definir la animación */
 }
@@ -99,15 +100,15 @@ img {
   width: 100%;
   bottom: 0;
   left: 0;
-  background-color: #6ef5ff;
+  background-color: #57439a;
 }
 
 @keyframes neon {
   from {
-    color: #6ef5ff; /* Color inicial del texto */
+    color: #57439a; /* Color inicial del texto */
   }
   to {
-    color: #6ef5ff27; /* Color al que se cambiará el texto */
+    color: rgba(64, 50, 110, 0.153)/* Color al que se cambiará el texto */
   }
 }
 
