@@ -31,7 +31,8 @@ li{
   }
 
   .section-container p{
-
+    font-size: 15px;
+    font-weight: lighter;
     text-align: center;
   }
 }

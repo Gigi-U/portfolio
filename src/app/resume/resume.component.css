@@ -12,6 +12,9 @@ div{
 a{
   font-family: 'JetBrains Mono', monospace;
   color: #57439a;
+  font-size: 15px;
+  font-weight: lighter;
+
 }
 
 @media only screen and (max-width: 767px) {
