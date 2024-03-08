@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   <div class="header-container">
     <div class="section-title">
       <h1> Hey I am <span>{{name.toUpperCase()}}</span></h1>
-      <h2>but you can call me {{nickname}}</h2>  
+      <h2> a Software Developer based in Argentina</h2>  
     </div> 
     <div class="social-icons">
         <a href="https://www.linkedin.com/in/giselaurriza/" target="_blank" title="LinkedIn">
