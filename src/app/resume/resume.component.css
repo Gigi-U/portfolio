@@ -4,16 +4,23 @@ p{
     margin-bottom: 20px;
     color: #000000;
 }
-.div{
+div{
   border-radius: 10px;
   color: #000000;
+  
 }
-
+a{
+  font-family: 'JetBrains Mono', monospace;
+  color: #57439a;
+}
 
 @media only screen and (max-width: 767px) {
 
     p{
-  
+        text-align: center;
+    }
+    div{
       text-align: center;
+
     }
   }
