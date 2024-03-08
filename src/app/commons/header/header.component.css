@@ -15,6 +15,10 @@
     text-indent: 100px;
 
 }
+.social-icons img{
+    width:25px;
+    height:25px
+}
 .section-title h1 span{
     font-family: 'JetBrains Mono', monospace;
     font-weight: normal;
