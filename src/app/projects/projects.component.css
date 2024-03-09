@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+*{
+  margin: 0;
 
+}
 .section-container {
-  height: fit-content;
-  margin: 0px 0px 30px 0px;
-  padding: 0; 
   text-align: center;
+  margin-bottom: 10px;
 }
 h2 {
   display: inline;
-  font-size: 17px;
+  font-size: 15px;
   font-family: 'JetBrains Mono', monospace;
 }
 .section-title h2{
@@ -28,33 +29,34 @@ h2 {
 
 .project-item {
   position: relative;
-  padding: 20px 10px;
+  padding: 0px 0px 10px 0px;
   border-radius: 5px;
   border: 1px solid rgb(89, 70, 104);;
-
   height: fit-content;
-  width: 330px;
+  width: 250px;
   margin-right: 10px; /* Ajusta según tus necesidades */
-  margin-bottom: 35px;
+  margin-bottom: 17px;
   text-align: center;
   overflow: hidden;
+
 }
 
 .project-description {
   box-sizing: border-box; 
   width: 100%;
-  padding: 10px;
-  height: 170px;
+  padding: 0px 5px 0px 5px;
+  height: 150px;
+  margin-top:-10px;
 }
 .project-description p{
   word-wrap: break-word;
-
+  font-size: 12px;
 }
 
 
 p {
   display: inline;
-  width: 200px;
+  width: 220px;
   font-family: 'JetBrains Mono', monospace;
   font-weight:lighter;
   font-size: 14px;
@@ -71,13 +73,13 @@ p {
 
 .project-tag h3 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin: 2px 0px 2px 80px;
+  margin: 1px 0px 1px 50px;
+  font-size: 12px;
 }
 
 img {
-  width: 90%;
-  border-radius: 3%;
-  position: relative;
+  width: 99%;
+  border-radius: 3% 3% 0% 0%;
 }
 
 .project-links {
