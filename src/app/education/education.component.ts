@@ -21,7 +21,7 @@ export class EducationComponent {
   titles = [
      {
       id:1,
-      name:'Bachelor Degree in Computer Science - UBA',
+      name:'Bachelor Degree in Computer Science - Universidad de Buenos Aires',
       status: 'in progress',
     }  
   ]

@@ -20,12 +20,12 @@ export class CertificationsComponent {
   titles = [
   {
     id:1,
-    name:'CTD - Professional Developer',
+    name:'Professional Developer | CTD - Digital House',
     status: 'completed',
   },
   {
     id:2,
-    name:'CTD - Backend Specialist',
+    name:'Backend Specialist | CTD - Digital House',
     status: ' in progress',
   },
   ]

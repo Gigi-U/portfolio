@@ -39,9 +39,10 @@ button{
 }
 p{  
     font-family: 'JetBrains Mono', monospace;
-    font-size: 20px;
     font-weight: lighter;
+    font-size: 25;
     margin: 20px 0px;
+    color: #57439a;
   }
 @media only screen and (max-width: 767px) {
     .popup-overlay {

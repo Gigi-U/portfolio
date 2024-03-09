@@ -17,17 +17,24 @@
 }
 
 .section-title {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .section-title h2 {
-    font-size: 24px;
     font-family: 'JetBrains Mono', monospace;
+    font-size: 24px;
+    font-weight: normal;
     color: #000000;
     text-align: center;
     margin-top: 20px;
 }
-
+p{
+    font-size: 15px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
 .contact-content {
     display: flex;
     justify-content: space-evenly;
@@ -64,7 +71,9 @@
     padding-top: 40px;
 }
 
-
+a{
+    color: rgb(0, 0, 0);
+}
 
 .form-group {
     margin-bottom: 15px;
