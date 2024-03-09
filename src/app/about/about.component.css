@@ -2,13 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 *{
   margin: 0;
+    border: 1px solid rgb(255, 0, 0);
 }
+
 .section-container {
     height: fit-content;
     border-radius: 5px;
     padding: 0; 
     justify-content: center;
-    margin: 20px 10px 20px 10px;
+    margin: 20px 10px -10px 10px;
 }
 .section-about{
   width: 90%;
@@ -74,7 +76,6 @@ p{
   }
   .section-container p{
     margin-left: 0px;
-    margin-bottom: 0px;
     margin-top: 10px;
   }
   .section-about{

@@ -26,7 +26,7 @@ li{
 @media only screen and (max-width: 767px) {
   .section-container  {
     text-align: center;
-    margin:20px 0px 0px 0px;
+    margin:20px;
     
   }
     .section-container .titles{
@@ -35,6 +35,7 @@ li{
   }
   .section-container p{
     margin-bottom: 0px;
+    margin-top: 0px;
 
     text-align: center;
   }
