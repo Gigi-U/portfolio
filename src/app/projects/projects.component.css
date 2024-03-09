@@ -31,7 +31,7 @@ h2 {
   position: relative;
   padding: 0px 0px 10px 0px;
   border-radius: 5px;
-  border: 1px solid rgb(89, 70, 104);;
+  border: 1px solid rgba(0, 0, 0, 0.315);;
   height: fit-content;
   width: 250px;
   margin-right: 10px; /* Ajusta según tus necesidades */
@@ -78,7 +78,9 @@ p {
 }
 
 img {
-  width: 99%;
+  width: 101%;
+  height: 101%;
+  margin:-2px;
   border-radius: 3% 3% 0% 0%;
 }
 
@@ -124,22 +126,25 @@ img {
 /* Cambiar color de la barra de desplazamiento en WebKit */
 .horizontal-scroll-container::-webkit-scrollbar {
   width: 12px; /* Ancho de la barra de desplazamiento */
+  height: 10px;/* alto de la barra de desplazamiento */
+  cursor: pointer; 
 
 }
 
 .horizontal-scroll-container::-webkit-scrollbar-thumb {
   background-color:rgba(57, 47, 65, 0.627); /* Color de la barra de desplazamiento */
-  border-radius: 6px; /* Bordes redondeados */
+  border-radius: 3px; /* Bordes redondeados */
 }
 
 /* Cambiar color de la barra de desplazamiento en Mozilla Firefox */
 .horizontal-scroll-container::-moz-scrollbar {
   width: 12px; /* Ancho de la barra de desplazamiento */
+  height: 12px;/* alto de la barra de desplazamiento */
 }
 
 .horizontal-scroll-container::-moz-scrollbar-thumb {
   background-color: #3498db; /* Color de la barra de desplazamiento */
-  border-radius: 6px; /* Bordes redondeados */
+  border-radius: 6px; /* Bordes redondeados */  
 }
 
 
