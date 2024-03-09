@@ -30,8 +30,8 @@ li{
 
   }
   .section-container .titles{
+    font-weight:lighter;
     font-size: 14px;
-    font-weight: lighter;
   }
   .section-container p{  
     text-align: center;

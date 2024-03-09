@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
   <div class="section-container">
     <p>EDUCATION</p>
       <ul>
-<!--         @for (title of titles; track title.id) {
+         @for (title of titles; track title.id) {
             <li>{{title.name}} ( {{title.status}} )</li>
-        } -->
+        } 
       </ul>
   </div>
   `
@@ -19,10 +19,10 @@ import { Component } from '@angular/core';
 })
 export class EducationComponent {
   titles = [
-/*     {
+     {
       id:1,
-      name:'Tecnico Superior en Desarrollo de Software',
+      name:'Bachelor Degree in Computer Science - UBA',
       status: 'in progress',
-    }  */
+    }  
   ]
 }

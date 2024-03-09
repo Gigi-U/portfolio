@@ -16,13 +16,13 @@ import { ContactComponent } from '../contact/contact.component';
       <button (click)="closePopup()">Close</button>
     </div>
   </div>
-    <app-about/>  
-    <app-projects/>
-    <app-skills/>
-    <app-contact/>
-    <br><b>
-    <p>Stuff I listen to while coding</p><br>
-    <iframe width="100%"  src="https://www.youtube.com/embed/playlist?list=PLJ3gHjGOJjav2pStUQn5-REejgnvLZKIv&si=860xmzyj4neib4Xx" frameborder="0" allowfullscreen></iframe>
+  <app-about/>  
+  <app-projects/>
+  <app-skills/>
+  <app-contact/>
+  <br><b>
+  <p>Stuff I listen to while coding</p><br>
+  <iframe width="100%"  src="https://www.youtube.com/embed/playlist?list=PLJ3gHjGOJjav2pStUQn5-REejgnvLZKIv&si=860xmzyj4neib4Xx" frameborder="0" allowfullscreen></iframe>
  `, 
   styleUrl: './home.component.css'
 })
