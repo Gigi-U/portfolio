@@ -6,16 +6,15 @@
   justify-content:space-evenly;
   flex-direction: column;
   height: fit-content;
-  padding: 20px; 
-
 }
 
-.title{
-  font-family: 'JetBrains Mono', monospace;
-  margin-bottom: 20px;
-  color: #000000;
-  text-align: center;
-
+.section-title h2{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 24px;
+    font-weight: normal;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
 }
 .description{
   font-family: 'Roboto', sans-serif;
@@ -29,12 +28,18 @@
 
 @media only screen and (max-width: 767px) {
 
-
+  .section-title h2{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    font-weight: normal;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+  }
     .description{
       font-size: 14px;
       margin:0px 0px 0px 0px;
       text-align: center;
-
     
     }
 
