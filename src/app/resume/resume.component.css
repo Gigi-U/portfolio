@@ -4,10 +4,17 @@ p{
     margin-bottom: 20px;
     color: #000000;
 }
-div{
-  border-radius: 10px;
+div button{
+  border-radius: 15px;
   color: #000000;
-  
+  border: 0.3px solid black;
+  width: 150px;
+  height: 25px;
+  background-color: white;  
+
+}
+.container{
+  margin-top: 20px;
 }
 a{
   font-family: 'JetBrains Mono', monospace;
