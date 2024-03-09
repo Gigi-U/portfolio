@@ -33,19 +33,21 @@ li{
   }
   ul{
     margin-top: 0px;
+    font-size: 14px;
+
   }
 
   .section-container p{  
     font-family: 'JetBrains Mono', monospace;
     font-weight: lighter;
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
     margin:0px;
   }
-  li{
+  .section-container ul li{
     font-family: 'Roboto', sans-serif;
     font-weight:lighter;    
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1; 
     margin-top:8px;
 
