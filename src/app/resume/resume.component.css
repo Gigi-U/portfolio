@@ -21,6 +21,8 @@ a{
 
     p{
         text-align: center;
+        font-size: 14px;
+        font-weight: lighter;
     }
     div{
       text-align: center;
