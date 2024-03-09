@@ -4,6 +4,7 @@
 * {
     border: 1px solid rgba(254, 0, 0, 0);
     background-color: #00dede00;
+    margin:0;
 }
 
 .section-container {
@@ -13,33 +14,26 @@
     flex-direction: column;
     height: fit-content;
     padding: 20px; /* Añadido padding */
-    margin: 20px 10px;
+    margin: 10px 10px;
 }
 
 .section-title {
     margin-bottom: 10px;
 }
 
-.section-title h2 {
+.section-title h2{
     font-family: 'JetBrains Mono', monospace;
-    font-size: 24px;
-    font-weight: normal;
-    color: #000000;
+    font-size: 19px;
     text-align: center;
-    margin-top: 20px;
-}
-p{
-    font-size: 15px;
-    font-family: 'JetBrains Mono', monospace;
     font-weight: bold;
-    color: #000000;
-    text-align: center;
 }
+
 .contact-content {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     width: 100%;
+    text-align: center;
+
 }
 
 
@@ -117,7 +111,10 @@ button {
         flex-direction: column;
         align-content: center;
     }
-
+    h2 {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 19px;
+    }
     .my-data{
         margin: 20px 20px 0px 20px; /* Espacio entre my-data y contact-form */
     }
@@ -142,6 +139,5 @@ button {
     .phrase{
         text-align: center;
         font-size: 15px;
-
     }
 }

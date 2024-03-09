@@ -31,10 +31,12 @@ li{
 
   }
 
-  .section-container p{  
+  p{  
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: lighter;
+    font-size: 17px;
     text-align: center;
     margin:0px;
-
   }
   ul{
     margin-top: 0px;

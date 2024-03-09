@@ -20,9 +20,10 @@ li{
   margin: 20px 20px 10px 20px;
 }
 .section-container p{
-  font-family: 'JetBrains Mono', monospace;
   font-size: 19px;
-  color: #000000;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: normal;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -34,12 +35,12 @@ li{
     margin-top: 0px;
   }
 
-  .section-container p{  
+  p{  
     font-family: 'JetBrains Mono', monospace;
-    font-size: 19px;
+    font-weight: lighter;
+    font-size: 17px;
     text-align: center;
     margin:0px;
-
   }
   li{
     font-family: 'Roboto', sans-serif;
