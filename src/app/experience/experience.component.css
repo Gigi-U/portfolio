@@ -25,7 +25,9 @@
 }
 
 @media only screen and (max-width: 767px) {
-
+  .section-container{
+  margin-top:20px
+  }
   .section-title h2{
     font-family: 'JetBrains Mono', monospace;
     font-size: 17px;

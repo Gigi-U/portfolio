@@ -29,7 +29,7 @@ li{
 @media only screen and (max-width: 767px) {
   .section-container  {
     text-align: center;
-    margin:0px;
+    margin:20px 0px 0px 0px;
   }
   ul{
     margin:8px 0px 0px 0px;
@@ -44,11 +44,11 @@ li{
     text-align: center;
     margin:0px;
   }
-  .section-container ul li{
+  li{
     font-family: 'Roboto', sans-serif;
     font-weight:lighter;    
     font-size: 12px;
-    line-height: 1; 
+    line-height: 1.7; 
     margin: 0px;
   }
 }
