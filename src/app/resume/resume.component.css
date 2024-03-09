@@ -20,6 +20,8 @@ div button{
   height: 25px;
   background-color: white;  
   margin-right: 10px;
+  cursor: pointer; 
+
 
 }
 .container{
