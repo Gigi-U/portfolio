@@ -72,9 +72,11 @@ p{
   .info{
     margin: 0px 0px 40px 0px;
   }
+  .section-title {
+    margin: 10px 0px 0px 0px;
+  }
   .section-container p{
-    margin-left: 0px;
-    margin-top: 10px;
+    margin: 10px 0px 0px 0px;
   }
   .section-about{
     width: 100%;

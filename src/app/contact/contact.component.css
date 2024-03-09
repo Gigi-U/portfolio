@@ -118,7 +118,7 @@ button {
         font-weight: lighter;
       }
     .my-data{
-        margin: 20px 20px 0px 20px; /* Espacio entre my-data y contact-form */
+        margin: 20px 0px 0px 0px; /* Espacio entre my-data y contact-form */
     }
     .contact-form {
         width: 100%; /* O ajusta según sea necesario para dispositivos móviles */
