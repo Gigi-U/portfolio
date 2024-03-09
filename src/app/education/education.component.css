@@ -35,15 +35,18 @@ li{
   }
 
   .section-container p{  
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 19px;
     text-align: center;
     margin:0px;
 
   }
   li{
+    font-family: 'Roboto', sans-serif;
+    font-weight:lighter;    
     font-size: 14px;
-    font-weight: lighter;
     line-height: 1; 
-    margin:8px;
+    margin-top:8px;
 
   }
 }

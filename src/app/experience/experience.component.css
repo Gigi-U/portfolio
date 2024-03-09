@@ -9,15 +9,13 @@
   padding: 20px; 
 
 }
-ul{
-  margin-top: 10px;
-}
-p{
+
+.title{
   font-family: 'JetBrains Mono', monospace;
   font-size: 19px;
   margin-bottom: 20px;
   color: #000000;
-  text-align: left;
+  text-align: center;
 
 }
 .description{
@@ -32,12 +30,12 @@ p{
 
 @media only screen and (max-width: 767px) {
 
-    p{
-        text-align: center;
-    }
+
     .description{
       font-size: 14px;
       margin:0px 0px 0px 0px;
+      text-align: center;
+
     
     }
 
