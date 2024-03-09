@@ -10,12 +10,12 @@ import { ContactComponent } from '../contact/contact.component';
   standalone: true,
   imports: [CommonModule, AboutComponent,ProjectsComponent, SkillsComponent, ContactComponent],
   template: `  
-   <div class="popup-overlay" *ngIf="isDevelopmentMode">
+   <!-- <div class="popup-overlay" *ngIf="isDevelopmentMode">
     <div class="popup-container">
       <span>🚧Under Development👷🏽‍♀️🔧</span>
       <button (click)="closePopup()">Close</button>
     </div>
-  </div> 
+  </div>  -->
   <app-about/>  
   <app-projects/>
   <app-skills/>

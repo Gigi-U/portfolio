@@ -12,7 +12,6 @@
     justify-content: center;
     flex-direction: column;
     height: fit-content;
-    border-radius: 5px;
     padding: 20px; /* Añadido padding */
     margin: 20px 10px;
 }

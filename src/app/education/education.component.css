@@ -26,14 +26,15 @@ li{
 @media only screen and (max-width: 767px) {
   .section-container  {
     text-align: center;
-    margin: 10px 20px 10px 20px;
-
+    margin:20px 0px 0px 0px;
+    
   }
     .section-container .titles{
     font-size: 14px;
     font-weight: lighter;
   }
   .section-container p{
+    margin-bottom: 0px;
 
     text-align: center;
   }
