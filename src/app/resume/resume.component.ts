@@ -14,12 +14,16 @@ export class ResumeComponent {
   constructor() { }
 
   descargarCV(): void {
-    // Lógica para descargar el CV en inglés
-    window.open('/app/resume/resume.pdf', '_blank');
+    const link = document.createElement('a');
+    link.href = 'files/resume.pdf'; 
+    link.download = 'resumeUrrizaGisela.pdf';
+    link.click();
   }
 
   descargarCVEspanol(): void {
-    // Lógica para descargar el CV en español
-    window.open('/resume/curriculum.pdf', '_blank');
+    const link = document.createElement('a');
+    link.href = 'files/curriculum.pdf'; 
+    link.download = 'cvUrrizaGisela.pdf';
+    link.click();
   }
 }
