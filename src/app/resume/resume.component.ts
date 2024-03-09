@@ -15,11 +15,11 @@ export class ResumeComponent {
 
   descargarCV(): void {
     // Lógica para descargar el CV en inglés
-    window.open('resume.pdf', '_blank');
+    window.open('/app/resume/resume.pdf', '_blank');
   }
 
   descargarCVEspanol(): void {
     // Lógica para descargar el CV en español
-    window.open('curriculum.pdf', '_blank');
+    window.open('/resume/curriculum.pdf', '_blank');
   }
 }
