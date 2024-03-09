@@ -15,14 +15,14 @@ export class ResumeComponent {
 
   descargarCV(): void {
     const link = document.createElement('a');
-    link.href = 'files/resume.pdf'; 
+    link.href = '/resume/files/resume.pdf'; 
     link.download = 'resumeUrrizaGisela.pdf';
     link.click();
   }
 
   descargarCVEspanol(): void {
     const link = document.createElement('a');
-    link.href = 'files/curriculum.pdf'; 
+    link.href = '../../resume/files/curriculum.pdf'; 
     link.download = 'cvUrrizaGisela.pdf';
     link.click();
   }
