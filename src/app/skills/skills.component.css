@@ -1,8 +1,20 @@
+
+.section-container {
+    height: fit-content;
+    border-radius: 5px;
+    padding: 0; 
+    justify-content: center;
+    margin: 20px 30px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  }
 .skills-icons {
     display: flex;
     flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
     justify-content: center;
     align-items: center;
+    width: 900px;
 }
 
 .skills-icons a {
@@ -17,18 +29,13 @@
     width:60px;
     margin:30px 5px 30px 0px;
 }
-.section-container {
-    height: fit-content;
-    border-radius: 5px;
-    padding: 0; 
-    justify-content: center;
-    margin: 20px 10px 20px 10px;
-  }
+
   .section-title h2{
     font-family: 'JetBrains Mono', monospace;
     font-size: 19px;
     text-align: center;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -43,6 +50,19 @@
         font-weight: lighter;
       }
       .section-container {
-        margin: 30px 10px 30px 10px;
+        margin: 30px 0px 30px 0px;
       }
+      .section-container {
+        height: fit-content;
+        border-radius: 5px;
+        padding: 0; 
+        justify-content: center;
+        margin: 20px 0px 20px 0px; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+      }
+    .skills-icons {
+        width: 100%;
+    }
 }
