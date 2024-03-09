@@ -37,10 +37,8 @@ p{
     }
     .description{
       font-size: 14px;
-      margin:20px 0px 0px 0px;
+      margin:0px 0px 0px 0px;
     
     }
-    ul{
-      margin-top: 0px;
-    }
+
   }

@@ -28,20 +28,22 @@ li{
 @media only screen and (max-width: 767px) {
   .section-container  {
     text-align: center;
-    margin:20px;    
+    margin:0px;
   }
   ul{
-    margin-top: 10px;
+    margin-top: 0px;
+  }
+
+  .section-container p{  
+    text-align: center;
+    margin:0px;
+
   }
   li{
     font-size: 14px;
     font-weight: lighter;
-    line-height: 1;   
-  }
-  .section-container p{
-    margin-bottom: 0px;
-    margin-top: 0px;
+    line-height: 1; 
+    margin:8px;
 
-    text-align: center;
   }
 }
