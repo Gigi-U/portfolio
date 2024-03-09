@@ -29,7 +29,8 @@
   color: #000000;
   text-align: center;
   margin: 20px 0px 20px 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight:bold;
 }
 p{
   font-family: 'Roboto', sans-serif;
