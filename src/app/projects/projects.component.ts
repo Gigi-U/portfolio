@@ -55,7 +55,7 @@ export class ProjectsComponent {
       tags: ["#backend","#microservices","#springboot","#java","#keycloak","#mysql"],
       type: 'Back-End', 
       labelColor: '#638df8', 
-      img: '../../assets/gifs/pixel-jeff-clipa-s.gif',
+      img: '../../assets/img/java.jpg',
     },
     {
       id:2,
@@ -69,7 +69,7 @@ export class ProjectsComponent {
       tags: ["#backend", "#monolitic", "#go", "#gingonic", "#mysql"],
       type: 'Back-End', 
       labelColor: '#638df8', 
-      img: '../../assets/gifs/pixel-jeff-clipa-s.gif',
+      img: '../../assets/img/java.jpg',
     },
     {
       id:3,
@@ -83,7 +83,7 @@ export class ProjectsComponent {
       tags: ["#backend","#monolitic","#springboot","#java","#thymeleaf","#h2"],
       type: 'Back-End', 
       labelColor: '#638df8', 
-      img: '../../assets/gifs/pixel-jeff-clipa-s.gif',
+      img: '../../assets/img/java.jpg',
     },
     {
       id:4,
@@ -97,7 +97,7 @@ export class ProjectsComponent {
       tags: ["#fullstack", "#javascript", "#python"],
       type: 'Full-Stack', 
       labelColor: 'yellowgreen', 
-      img: '../../assets/gifs/pixel-jeff-clipa-s.gif',
+      img: '../../assets/img/frontend.jpg',
     },    
     {
       id:5,
@@ -125,7 +125,7 @@ export class ProjectsComponent {
       tags: ["#frontend", "#javascript", "#react", "#layout"],
       type: 'Front-End', 
       labelColor: 'darkorchid', 
-      img: '../../assets/gifs/pixel-jeff-clipa-s.gif',
+      img: '../../assets/img/frontend.jpg',
     },
     {
       id:7,
@@ -139,7 +139,7 @@ export class ProjectsComponent {
       tags: ["#ui", "#figma", "#design"],
       type: 'Ux/Ui', 
       labelColor: 'deeppink', 
-      img: '../../assets/gifs/pixel-jeff-clipa-s.gif',
+      img: '../../assets/img/ui.jpg',
     },
   ]
 }
