@@ -29,9 +29,13 @@ li{
     margin:20px;
     
   }
-    .section-container .titles{
+  ul{
+    margin-top: 10px;
+  }
+  li{
     font-size: 14px;
     font-weight: lighter;
+    line-height: 1; 
   }
   .section-container p{
     margin-bottom: 0px;
