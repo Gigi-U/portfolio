@@ -43,4 +43,9 @@ a{
   div button {
       margin: 0 5px; 
   }
+  h2{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 17px;
+    font-weight: lighter;
+  }
 }

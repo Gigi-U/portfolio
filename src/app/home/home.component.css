@@ -52,5 +52,11 @@ p{
     .popup-container {
         margin-top: auto; 
     }
-
+    p{  
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: lighter;
+        font-size: 15;
+        margin: 0px;
+        text-align: center;
+      }
 }

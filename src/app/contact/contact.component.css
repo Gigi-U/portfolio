@@ -110,11 +110,13 @@ button {
     .section-container {
         flex-direction: column;
         align-content: center;
+        margin:0;
     }
-    h2 {
+    .section-title h2{
         font-family: 'JetBrains Mono', monospace;
-        font-size: 19px;
-    }
+        font-size: 17px;
+        font-weight: lighter;
+      }
     .my-data{
         margin: 20px 20px 0px 20px; /* Espacio entre my-data y contact-form */
     }

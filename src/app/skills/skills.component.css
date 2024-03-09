@@ -37,7 +37,13 @@
 @media only screen and (max-width: 767px) {
     .skills-icons img{
         width:50px;
+        margin:20px 0px 0px 0px;
 
     }
+    .section-title h2{
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 17px;
+        font-weight: lighter;
+      }
 
 }

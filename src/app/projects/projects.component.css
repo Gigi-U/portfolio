@@ -109,6 +109,7 @@ img {
     color: rgba(64, 50, 110, 0.153)/* Color al que se cambiará el texto */
   }
 }
+ 
 
 .project-links a + a {
   margin-left: 30px;
@@ -137,4 +138,18 @@ img {
 .horizontal-scroll-container::-moz-scrollbar-thumb {
   background-color: #3498db; /* Color de la barra de desplazamiento */
   border-radius: 6px; /* Bordes redondeados */
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  .section-title h2{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 17px;
+    font-weight: lighter;
+  }
+  .section-container {
+    margin: 0px ;
+
+  }
 }
