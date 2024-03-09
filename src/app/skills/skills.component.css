@@ -29,11 +29,10 @@
     margin-bottom: 10px;
 }
   .section-title h2{  
-    font-size: 24px;
-    color: #000000;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 22px;
     text-align: center;
     margin: 20px 0px 0px 0px;
-    font-family: 'JetBrains Mono', monospace;
     
 }
 

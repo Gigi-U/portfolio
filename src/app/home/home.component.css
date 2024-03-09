@@ -37,10 +37,10 @@ button{
     border-radius: 18px;
 }
 p{  
-    font-size: 20px;
-    color: #000000;
-    margin: 20px 0px;
     font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 20px 0px;
   }
 @media only screen and (max-width: 767px) {
     .popup-overlay {
