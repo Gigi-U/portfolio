@@ -8,12 +8,11 @@
   height: fit-content;
 }
 
- h2{
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 19px;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 20px;
+.section-title h2{
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 19px;
+  text-align: center;
+  font-weight: bold;
 }
 .description{
   font-family: 'Roboto', sans-serif;

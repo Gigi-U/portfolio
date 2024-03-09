@@ -6,7 +6,11 @@
   padding: 0; 
   text-align: center;
 }
-
+h2 {
+  display: inline;
+  font-size: 17px;
+  font-family: 'JetBrains Mono', monospace;
+}
 .section-title h2{
   font-family: 'JetBrains Mono', monospace;
   font-size: 19px;
@@ -46,11 +50,7 @@
   word-wrap: break-word;
 
 }
-h2 {
-  display: inline;
-  font-size: 17px;
-  font-family: 'JetBrains Mono', monospace;
-}
+
 
 p {
   display: inline;
