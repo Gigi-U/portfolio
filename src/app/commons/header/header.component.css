@@ -30,14 +30,14 @@
     font-weight: lighter;
     margin-top:10px;
     font-size: 25px;
-    color: #57439a; /* Color base más claro */
+    color: #2b2054; /* Color base más claro */
     text-indent: 400px;
     transition: text-shadow 0.3s ease, color 0.3s ease; /* Agregamos transiciones para suavizar los cambios */
 }
 
 .section-title h2:hover,
 .section-title h2:active {
-    color: #57439a; /* Cambiamos el color al hacer hover o clic, tono parecido al violeta */
+    color: #493784; /* Cambiamos el color al hacer hover o clic, tono parecido al violeta */
     text-shadow: 0 0 10px #57439a, 0 0 20px  #57439a, 0 0 30px  #57439a; /* Resplandor más suave */
 }
 .section-title{
