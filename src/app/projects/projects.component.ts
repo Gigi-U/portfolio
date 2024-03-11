@@ -106,7 +106,7 @@ export class ProjectsComponent {
       status: 'Completed',
       link1:"https://www.figma.com/file/tlKpqG8tbqm2RZgpjjalQl/repo?type=design&node-id=0%3A1&mode=design&t=y8ydcxlEqsbUoOOn-1",
       linktext1:'Figma',
-      link2:"https://www.figma.com/proto/tlKpqG8tbqm2RZgpjjalQl/repo?type=design&node-id=28-2334&t=SxQ4jfLYZG9bxgOv-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=28%3A2334&mode=design",
+      link2:"https://www.figma.com/proto/tlKpqG8tbqm2RZgpjjalQl/repo?page-id=0%3A1&type=design&node-id=28-2334&viewport=320%2C463%2C0.08&t=SQ9v0Jx7rftQE4Du-1&scaling=scale-down&starting-point-node-id=28%3A2334&mode=design",
       linktext2:'Prototype',
       tags: ["#ui", "#figma", "#design"],
       type: 'Ux/Ui', 
