@@ -97,7 +97,7 @@ export class ProjectsComponent {
       tags: ["#fullstack", "#javascript", "#python"],
       type: 'Full-Stack', 
       labelColor: 'yellowgreen', 
-      img: '../../assets/img/frontend.jpg',
+      img: '../../assets/img/parque.png',
     },    
     {
       id:5,
