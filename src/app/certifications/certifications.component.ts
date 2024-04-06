@@ -26,7 +26,7 @@ export class CertificationsComponent {
   {
     id:2,
     name:'Backend Specialist | CTD - Digital House',
-    status: ' in progress',
+    status: 'completed',
   },
   ]
 }

@@ -50,7 +50,7 @@ p{
   width:300px;
 }
 .info{
-  margin: -100px 0px 80px 30px;
+  margin: -100px 0px 80px 0px;
 }
 
  /* Media query para dispositivos con un ancho máximo de 767 píxeles (por ejemplo, teléfonos móviles) */
