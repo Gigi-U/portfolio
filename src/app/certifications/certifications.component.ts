@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
     <p>CERTIFICATIONS</p>
       <ul>
         @for (title of titles; track title.id) {
-            <li>{{title.name}} ({{title.status}})</li>
+            <li>{{title.name}} ({{title.status}}) - {{title.year}}</li>
         }
       </ul>
   </div>
@@ -22,11 +22,13 @@ export class CertificationsComponent {
     id:1,
     name:'Professional Developer | CTD - Digital House',
     status: 'completed',
+    year:'2022'
   },
   {
     id:2,
     name:'Backend Specialist | CTD - Digital House',
     status: 'completed',
+    year:'2024'
   },
   ]
 }
