@@ -67,11 +67,16 @@
 
 a {
     color: rgb(0, 0, 0);
-    transition: text-shadow 0.3s ease, color 0.3s ease; /* Agregamos transiciones para suavizar los cambios */
+    transition: text-shadow 0.3s ease, color 0.3s ease; 
+    font-family: 'JetBrains Mono', monospace;
+}
+p{
+    font-family: 'JetBrains Mono', monospace;
+    font-weight:lighter;
 }
 a:hover,
 a:active {
-    color: #773ad8; /* Cambiamos el color al hacer hover o clic, tono parecido al violeta */
+    color: rgb(108, 48, 142); /* Cambiamos el color al hacer hover o clic, tono parecido al violeta */
 }
 .form-group {
     margin-bottom: 15px;
