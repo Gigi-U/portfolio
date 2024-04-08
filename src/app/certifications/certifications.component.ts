@@ -22,13 +22,13 @@ export class CertificationsComponent {
     id:1,
     name:'Professional Developer | CTD - Digital House',
     status: 'completed',
-    year:'2022'
+    year:'dec.2022'
   },
   {
     id:2,
     name:'Backend Specialist | CTD - Digital House',
     status: 'completed',
-    year:'2024'
+    year:'apr.2024'
   },
   ]
 }
